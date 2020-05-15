@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eae6e5;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  color: #343333;
+
+  /* height: 100vh; */
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 10vh;
+}
+
+nav li {
+  font-size: 24px;
+  list-style-type: none;
+  margin: 20px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #343333;
+}
+
+a:hover {
+  color: #F27B5E;
+}
+
+.background {
+  /* background-image: url('img/skatch.jpeg');
+  background-position: center;
+  background-size: cover;  style index.html*/
+
+  opacity: 0.6;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.layover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 60, 0.7);
+}
+
+.cit {
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F27B5E;
+}
+
+h3 {
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 2px 2px #343333;
+}
+.cit > p {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #343333;
+}
+
+.content {
+  position: absolute;
+  width: 900px;
+  /* height: 400px; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content h3 {
+  font-size: 40px;
+  color: #F27B5E;
+  padding-left: 10px;
+}
+
+.about {
+  float: left;
+  width: 600px;
+  height: 400px;
+}
+
+.about p {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 7px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.about p:first-child {
+  margin-top: 20px;
+}
+
+p strong {
+  font-weight: 700;
+}
+
+.photo {
+  float: left;
+  width: 300px;
+  height: 400px;
+}
+
+.photo img{
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.back-home {
+position: absolute;
+bottom: 0;
+width: 100%;
+margin-top: 20px;
+text-align: left;
+padding-right: 20px;
+}
+
+p > .link {
+  font-family: 'Amatic SC', cursive;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+footer {
+  height: 10vh;
+  position: relative;
+}
+
+.get, .sign {
+  float: left;
+  margin: 20px 20px;
+  font-size: 22px;
+  color: #F27B5E;
+}
+
+.gmail, .linkedin, .sign{
+  float: left;
+  padding: 2px;
+  margin-top: 20px;
+  color: #F27B5E;
+}
+
+.linkedin {
+  margin-left: 10px;
+}
+
+.sign {
+  float: right;
+}
+
+.sign span {
+  font-size: 16px;
+  margin-right: 10px;
+}
